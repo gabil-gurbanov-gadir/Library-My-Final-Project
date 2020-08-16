@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\SONY\\Desktop\\CodeWorks\\Library - My C# Final Project\\Library-Final Project\\Library-Final Project\\Library-Final Project.csproj": {}
+    "C:\\Users\\SONY\\Desktop\\CodeWorks\\Library-My Final Project\\Library-My Final Project\\Library-Final Project\\Library-Final Project\\Library-Final Project.csproj": {}
   },
   "projects": {
-    "C:\\Users\\SONY\\Desktop\\CodeWorks\\Library - My C# Final Project\\Library-Final Project\\Library-Final Project\\Library-Final Project.csproj": {
+    "C:\\Users\\SONY\\Desktop\\CodeWorks\\Library-My Final Project\\Library-My Final Project\\Library-Final Project\\Library-Final Project\\Library-Final Project.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\SONY\\Desktop\\CodeWorks\\Library - My C# Final Project\\Library-Final Project\\Library-Final Project\\Library-Final Project.csproj",
+        "projectUniqueName": "C:\\Users\\SONY\\Desktop\\CodeWorks\\Library-My Final Project\\Library-My Final Project\\Library-Final Project\\Library-Final Project\\Library-Final Project.csproj",
         "projectName": "Library-Final Project",
-        "projectPath": "C:\\Users\\SONY\\Desktop\\CodeWorks\\Library - My C# Final Project\\Library-Final Project\\Library-Final Project\\Library-Final Project.csproj",
+        "projectPath": "C:\\Users\\SONY\\Desktop\\CodeWorks\\Library-My Final Project\\Library-My Final Project\\Library-Final Project\\Library-Final Project\\Library-Final Project.csproj",
         "packagesPath": "C:\\Users\\SONY\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\SONY\\Desktop\\CodeWorks\\Library - My C# Final Project\\Library-Final Project\\Library-Final Project\\obj\\",
+        "outputPath": "C:\\Users\\SONY\\Desktop\\CodeWorks\\Library-My Final Project\\Library-My Final Project\\Library-Final Project\\Library-Final Project\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -40,6 +40,26 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "MaterialDesignThemes": {
+              "target": "Package",
+              "version": "[3.1.3, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.7, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

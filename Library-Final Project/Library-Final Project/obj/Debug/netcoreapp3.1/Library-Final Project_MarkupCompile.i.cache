@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\SONY\Desktop\CodeWorks\Library - My C# Final Project\Library-Final Project\Library-Final Project\obj\Debug\netcoreapp3.1\
+C:\Users\SONY\Desktop\CodeWorks\Library-My Final Project\Library-My Final Project\Library-Final Project\Library-Final Project\obj\Debug\netcoreapp3.1\
 Library_Final_Project
 none
 false
 TRACE;DEBUG;NETCOREAPP;NETCOREAPP3_1
-C:\Users\SONY\Desktop\CodeWorks\Library - My C# Final Project\Library-Final Project\Library-Final Project\App.xaml
-11151548125
+C:\Users\SONY\Desktop\CodeWorks\Library-My Final Project\Library-My Final Project\Library-Final Project\Library-Final Project\App.xaml
+9-1392127013
 
-5-973709527
-1921654412462
-MainWindow.xaml;
+22-1565269595
+2191353321886
+Windows\BooksWindow.xaml;Windows\ClientsWindow.xaml;Windows\CreatingRentalWindow.xaml;Windows\DashboardWindow.xaml;Windows\FollowReturnsWindow.xaml;Windows\LogInWindow.xaml;Windows\ReportsWindow.xaml;Windows\ReturnBooksWindow.xaml;Windows\UsersWindow.xaml;
 
-False
+True
 
