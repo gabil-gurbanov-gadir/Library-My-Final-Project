@@ -27,8 +27,17 @@ namespace Library_Final_Project.Windows
             List<User> users = _context.Users.ToList();
 
             int count = users.Count;
+            if (count == 0)
+            {
+                MessageBox.Show("Kitabxana proqramına xoş gəlmisiniz");
+                DashboardWindow dw = new DashboardWindow();
+                dw.Show();
+                this.Close();
+                return;
+            }
             foreach (User user in users)
             {
+                
                 if (TxtUserName.Text == user.Username && PwbPassword.Password==user.Password)
                 {
                     MessageBox.Show(user.Username+" adı ilə daxil oldunuz");
