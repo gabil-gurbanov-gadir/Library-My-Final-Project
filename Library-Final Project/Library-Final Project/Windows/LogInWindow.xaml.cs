@@ -1,32 +1,78 @@
-﻿using System;
+﻿using Library_Final_Project.Data;
+using Library_Final_Project.Models;
 using System.Collections.Generic;
-using System.Text;
+using System.Linq;
 using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
 using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Shapes;
 
 namespace Library_Final_Project.Windows
 {
-    /// <summary>
-    /// Interaction logic for LogInWindow.xaml
-    /// </summary>
     public partial class LogInWindow : Window
     {
+        private readonly LibraryContext _context;
         public LogInWindow()
         {
             InitializeComponent();
+            _context = new LibraryContext();
         }
-
+        
         private void BtnSignIn_Click(object sender, RoutedEventArgs e)
         {
-            DashboardWindow dw = new DashboardWindow();
-            dw.Show();
-            this.Close();
+            if (FormValidation())
+            {
+                MessageBox.Show("Xanaları doldurun");
+                return;
+            }
+
+            List<User> users = _context.Users.ToList();
+
+            int count = users.Count;
+            foreach (User user in users)
+            {
+                if (TxtUserName.Text == user.Username && PwbPassword.Password==user.Password)
+                {
+                    MessageBox.Show(user.Username+" adı ilə daxil oldunuz");
+                    DashboardWindow dw = new DashboardWindow();
+                    dw.Show();                    
+                    this.Close();
+                    return;
+                }
+                else
+                {
+                    count--;
+                    if (count==0)
+                    {
+                        MessageBox.Show("İstifadəçi adı və ya şifrəsi yanlışdır");
+                        return;
+                    }
+                }
+            }
+        }
+
+        private bool FormValidation()
+        {
+            bool hasError = false;
+
+            if (string.IsNullOrEmpty(TxtUserName.Text))
+            {
+                LblUserName.Foreground = new SolidColorBrush(Colors.Red);
+                hasError = true;
+            }
+            else
+            {
+                LblUserName.Foreground = new SolidColorBrush(Colors.Black);
+            }
+
+            if (string.IsNullOrEmpty(PwbPassword.Password))
+            {
+                LblPassword.Foreground = new SolidColorBrush(Colors.Red);
+                hasError = true;
+            }
+            else
+            {
+                LblPassword.Foreground = new SolidColorBrush(Colors.Black);
+            }
+            return hasError;
         }
     }
 }

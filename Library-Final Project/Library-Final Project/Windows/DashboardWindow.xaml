@@ -14,8 +14,8 @@
                 <GradientStop Color="#FF7CC2A2" Offset="0.281"/>
             </LinearGradientBrush>
         </Grid.Background>
-        <Button x:Name="BtnBooks" Content="Kitablar" HorizontalAlignment="Left" Margin="86,55,0,0" VerticalAlignment="Top" Width="173" Height="40" Background="#FF2B6630" BorderBrush="#FF032602" Click="BtnBooks_Click"/>
-        <Button x:Name="BtnUsers" Content="İdarəçilər" HorizontalAlignment="Left" Margin="86,131,0,0" VerticalAlignment="Top" Width="173" Height="40" Background="#FF259032" BorderBrush="#FF095A06" Click="BtnUsers_Click"/>
+        <Button x:Name="BtnUsers" Content="İdarəçilər" HorizontalAlignment="Left" Margin="86,54,0,0" VerticalAlignment="Top" Width="173" Height="40" Background="#FF2D963A" BorderBrush="#FF095A06" Click="BtnUsers_Click"/>
+        <Button x:Name="BtnBooks" Content="Kitablar" HorizontalAlignment="Left" Margin="86,143,0,0" VerticalAlignment="Top" Width="173" Height="40" Background="#FF308E38" BorderBrush="#FF032602" Click="BtnBooks_Click"/>        
         <Button x:Name="BtnClients" Content="Müştərilər" HorizontalAlignment="Left" Margin="86,217,0,0" VerticalAlignment="Top" Width="173" Height="40" Background="#FF3A9945" BorderBrush="#FF1E791C" Click="BtnClients_Click"/>
         <Button x:Name="BtnReports" Content="Hesabatlar" HorizontalAlignment="Left" Margin="86,291,0,0" VerticalAlignment="Top" Width="173" Height="40" Background="#FF5A9661" BorderBrush="#FF298827" Click="BtnReports_Click"/>
         <Button x:Name="BtnCreateRental" Content="Sifariş yaratma" HorizontalAlignment="Left" Margin="482,55,0,0" VerticalAlignment="Top" Width="195" Height="50" Background="#FF3366BC" BorderBrush="#FF0B2F32" Click="BtnCreateRental_Click"/>

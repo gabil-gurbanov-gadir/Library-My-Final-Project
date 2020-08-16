@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\SONY\\Desktop\\CodeWorks\\Library-My Final Project\\Library-My Final Project\\Library-Final Project\\Library-Final Project\\Library-Final Project.csproj": {}
+    "C:\\Users\\SONY\\Desktop\\Final project\\Library-My-Final-Project\\Library-Final Project\\Library-Final Project\\Library-Final Project.csproj": {}
   },
   "projects": {
-    "C:\\Users\\SONY\\Desktop\\CodeWorks\\Library-My Final Project\\Library-My Final Project\\Library-Final Project\\Library-Final Project\\Library-Final Project.csproj": {
+    "C:\\Users\\SONY\\Desktop\\Final project\\Library-My-Final-Project\\Library-Final Project\\Library-Final Project\\Library-Final Project.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\SONY\\Desktop\\CodeWorks\\Library-My Final Project\\Library-My Final Project\\Library-Final Project\\Library-Final Project\\Library-Final Project.csproj",
+        "projectUniqueName": "C:\\Users\\SONY\\Desktop\\Final project\\Library-My-Final-Project\\Library-Final Project\\Library-Final Project\\Library-Final Project.csproj",
         "projectName": "Library-Final Project",
-        "projectPath": "C:\\Users\\SONY\\Desktop\\CodeWorks\\Library-My Final Project\\Library-My Final Project\\Library-Final Project\\Library-Final Project\\Library-Final Project.csproj",
+        "projectPath": "C:\\Users\\SONY\\Desktop\\Final project\\Library-My-Final-Project\\Library-Final Project\\Library-Final Project\\Library-Final Project.csproj",
         "packagesPath": "C:\\Users\\SONY\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\SONY\\Desktop\\CodeWorks\\Library-My Final Project\\Library-My Final Project\\Library-Final Project\\Library-Final Project\\obj\\",
+        "outputPath": "C:\\Users\\SONY\\Desktop\\Final project\\Library-My-Final-Project\\Library-Final Project\\Library-Final Project\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

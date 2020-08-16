@@ -17,9 +17,8 @@
     <Grid>
         <Label x:Name="LblUserName" Content="İstifadeçi adınız : " HorizontalAlignment="Center" Margin="0,58,0,0" VerticalAlignment="Top" Width="194" FontWeight="Bold" FontSize="18" Foreground="#DDFFFFFF"/>
         <TextBox x:Name="TxtUserName" HorizontalAlignment="Center" Margin="0,106,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="194" FontSize="14" Foreground="White"/>
-        <Label x:Name="LblPassword" Content="Şifrəniz : " HorizontalAlignment="Center" Margin="0,174,0,0" VerticalAlignment="Top" Width="194" FontWeight="Bold" FontSize="18" Foreground="#DDFFFFFF"/>
-        <Button x:Name="BtnSignIn" Content="Daxil ol" HorizontalAlignment="Center" Margin="0,286,0,0" VerticalAlignment="Top" Width="194" Click="BtnSignIn_Click" Background="#FF0D5C7F" BorderBrush="#FF042182"/>
+        <Label x:Name="LblPassword" Content="Şifrəniz : " HorizontalAlignment="Center" Margin="0,174,0,0" VerticalAlignment="Top" Width="194" FontWeight="Bold" FontSize="18" Foreground="#DDFFFFFF"/>        
         <PasswordBox x:Name="PwbPassword" HorizontalAlignment="Center" Margin="0,224,0,0" VerticalAlignment="Top" Width="194" Password="" FontSize="14" Foreground="White"/>
-
+        <Button x:Name="BtnSignIn" Content="Daxil ol" HorizontalAlignment="Center" Margin="0,286,0,0" VerticalAlignment="Top" Width="194" Click="BtnSignIn_Click" Background="#FF0D5C7F" BorderBrush="#FF042182"/>
     </Grid>
 </Window>
