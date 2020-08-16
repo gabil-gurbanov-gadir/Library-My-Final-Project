@@ -12,8 +12,6 @@ namespace Library_Final_Project.Models
 
         public int BookCategoryId { get; set; }
 
-        public int RentalId { get; set; }
-
         [Required]
         [StringLength(50)]
         public string Name { get; set; }
@@ -24,6 +22,6 @@ namespace Library_Final_Project.Models
 
         public BookCategory BookCategory { get; set; }
 
-        public Rental Rental { get; set; }
+        public ICollection<Rental> Rentals { get; set; }
     }
 }

@@ -150,3 +150,5 @@ C:\Users\SONY\Desktop\Final project\Library-My-Final-Project\Library-Final Proje
 C:\Users\SONY\Desktop\Final project\Library-My-Final-Project\Library-Final Project\Library-Final Project\obj\Debug\netcoreapp3.1\Library-Final Project.dll
 C:\Users\SONY\Desktop\Final project\Library-My-Final-Project\Library-Final Project\Library-Final Project\obj\Debug\netcoreapp3.1\Library-Final Project.pdb
 C:\Users\SONY\Desktop\Final project\Library-My-Final-Project\Library-Final Project\Library-Final Project\obj\Debug\netcoreapp3.1\Library-Final Project.genruntimeconfig.cache
+C:\Users\SONY\Desktop\Final project\Library-My-Final-Project\Library-Final Project\Library-Final Project\obj\Debug\netcoreapp3.1\Windows\AddBookCategoryWindow.g.cs
+C:\Users\SONY\Desktop\Final project\Library-My-Final-Project\Library-Final Project\Library-Final Project\obj\Debug\netcoreapp3.1\Windows\AddBookCategoryWindow.baml

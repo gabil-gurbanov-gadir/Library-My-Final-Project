@@ -10,6 +10,7 @@ namespace Library_Final_Project.Models
     {
         public int Id { get; set; }
         public int ClientId { get; set; }
+        public int BookId { get; set; }
 
         [Required]
         [Column(TypeName ="date")]
@@ -25,6 +26,6 @@ namespace Library_Final_Project.Models
 
         public Client Client { get; set; }
 
-        public ICollection<Book> Books { get; set; }
+        public Book Book { get; set; }
     }
 }

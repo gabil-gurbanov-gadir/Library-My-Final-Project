@@ -7,6 +7,9 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
+    <Compile Update="Windows\AddBookCategoryWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="Windows\BooksWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -36,6 +39,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Page Update="Windows\AddBookCategoryWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="Windows\BooksWindow.xaml">
       <SubType>Designer</SubType>
     </Page>

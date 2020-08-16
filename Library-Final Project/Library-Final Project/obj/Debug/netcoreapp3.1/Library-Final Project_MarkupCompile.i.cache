@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NETCOREAPP;NETCOREAPP3_1
 C:\Users\SONY\Desktop\Final project\Library-My-Final-Project\Library-Final Project\Library-Final Project\App.xaml
-9-1392127013
+10753929176
 
-22-1565269595
+25170789788
 2191353321886
-Windows\BooksWindow.xaml;Windows\ClientsWindow.xaml;Windows\CreatingRentalWindow.xaml;Windows\DashboardWindow.xaml;Windows\FollowReturnsWindow.xaml;Windows\LogInWindow.xaml;Windows\ReportsWindow.xaml;Windows\ReturnBooksWindow.xaml;Windows\UsersWindow.xaml;
+Windows\AddBookCategoryWindow.xaml;Windows\BooksWindow.xaml;Windows\ClientsWindow.xaml;Windows\CreatingRentalWindow.xaml;Windows\DashboardWindow.xaml;Windows\FollowReturnsWindow.xaml;Windows\LogInWindow.xaml;Windows\ReportsWindow.xaml;Windows\ReturnBooksWindow.xaml;Windows\UsersWindow.xaml;
 
 False
 
