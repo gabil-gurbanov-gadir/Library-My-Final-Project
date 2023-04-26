@@ -7,7 +7,7 @@ namespace Library_Final_Project.Data
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer(@"Server=DESKTOP-6Q3O2QE\SQLEXPRESS;Database=Library;Integrated Security=True");
+            optionsBuilder.UseSqlServer(@"Server=.\SQLEXPRESS;Database=Library;Integrated Security=True");
         }
 
         public DbSet<Book> Books { get; set; }
